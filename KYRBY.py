@@ -8,7 +8,7 @@ def read(path):
     obsah = file.read()
     file.close()
     return obsah
-
+    
 print (read("nacteni.txt"))
 
 def look_for(key,worth,dictionary):
@@ -21,4 +21,4 @@ def look_for(key,worth,dictionary):
         print("shoda")
     else:
         print("neshoda")
-look_for("rohlik","obed",{"rohlik":"obed"})
+look_for("rohlik","chleba",{"rohlik":"chleba"})
